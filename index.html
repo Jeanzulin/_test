@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--for ie-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蔦林影像 Tsutabayashi Studio</title>
+
+    <!--meta info-->
+    <meta name="author" content="">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta property="fb:app_id" content="">
+    <meta property="fb:pages" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="">
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_tw">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="">
+    <meta property="og:image:height" content="">
+
+    <!-- import link-->
+    <link rel="shortcut icon" href="images/icon.ico">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5LLQXL');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+
+<body id="main">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LLQXL"
+            sandbox="allow-scripts allow-popups allow-forms" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="wrapper">
+        <!--Start header  -->
+        <header>
+            <div class="nav">
+                <a class="nav-logo" href="index.html">
+                    <img class="logo" src="images/logo.png">
+                </a>
+                <!-- <div class="nav-hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span> </div> -->
+                <!--<ul class="nav-menu">
+                    <li class="menu-item"><a class="" href="#section1">主頁</a></li>
+                    <li class="menu-item"><a class="" href="#section2">影像寫真</a></li>
+                </ul>-->
+            </div>
+        </header>
+        <!--End header -->
+
+        <!-- Start 主視覺 -->
+        <div class="kv">
+            <div id="slider"></div>
+            <img class="kv-logo" src="images/kv-logo.png">
+            <img class="kv-text" src="images/kv-text.png">
+            <div class="scroll-down">
+                <span class="arrow-down">
+                </span>
+                <a href="#section1" class="scroll-title">Scroll</a>
+            </div>
+        </div>
+        <!-- End 主視覺 -->
+
+        <!-- Start 關於-->
+        <div class="section" id="section1">
+            <div class="container margin-auto">
+                <h2 class="text-center">
+                    <img class="title" src="images/title-1.png">
+                </h2>
+                <div class="row" data-aos="fade-in" data-aos-duration="1200">
+                    <img class="logo" src="images/logo.png" alt="">
+                    <div class="text">
+                        <p>蔦林影像</p>
+                        <p>實景攝影棚出租</p>
+                        <p>平面拍攝、動態影像攝製服務</p>
+                        <p>透天老宅共八十坪，格局方正、挑高、自然光美</p>
+                        <p>全區皆可平面動態攝錄影，場景、傢具、道具皆可使用 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End 關於-->
+
+        <!-- Start 場地介紹 -->
+        <div class="section" id="section2">
+            <div class="container margin-auto ">
+                <h2 class="text-center">
+                    <img class="title" src="images/title-2.png">
+                </h2>
+                <div class="row">
+                    <a class="place" href="#place1" data-aos="fade-in" data-aos-duration="1200">
+                        <h5>1F</h5>
+                        <div>
+                            <p>營運中咖啡廳<br>
+                                <span class="text-sm">(提供包場/空間租借)</span></p>
+                            <p class="move">木質調的樸實風格</p>
+                        </div>
+                    </a>
+                    <a class="place" href="#place2" data-aos="fade-in" data-aos-duration="1200" data-aos-delay="100">
+                        <div>
+                            <h5>2F</h5>
+                            <p>工業風廚房景</p>
+                            <p class="move">沉穩靜謐的中性調氛圍</p>
+                        </div>
+                    </a>
+                    <a class="place" href="#place3" data-aos="fade-in" data-aos-duration="1200" data-aos-delay="200">
+                        <div>
+                            <h5>3F</h5>
+                            <p>三樓自然光家景</p>
+                            <p class="move">溫馨明亮北歐風格</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="container margin-auto ">
+                <div class="row" id="place1" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="col-1-3">
+                        <div class="title">
+                            <img class="" src="images/1f.png">
+                            <h3>營運咖啡廳<br>
+                                <span class="text-sm font-light">Café</span>
+                            </h3>
+                        </div>
+                        <p class="text">一樓店面為現營運中的咖啡廳<br>
+                            （包場或空間租借皆可私訊洽談）</p>
+                        <a href="album.html#tab1" class="btn" target="_blank">查看更多1F相片<img src="images/arrow.png"
+                                alt=""></a>
+                    </div>
+                    <div class="col-2-3">
+                        <img class="main-pic" src="images/main-pic1.png">
+                    </div>
+                </div>
+                <div class="row" id="place2" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="col-2-3">
+                        <img class="main-pic" src="images/main-pic1.png">
+                    </div>
+                    <div class="col-1-3">
+                        <div class="title">
+                            <img class="" src="images/2f.png">
+                            <h3>工業風廚房景<br>
+                                <span class="text-sm font-light">Industrial Loft Style</span>
+                            </h3>
+                        </div>
+                        <p class="text">二樓工業風廚房景、實木大長桌，質感灰泥牆與柔和的光線，沉穩靜謐的中性調氛圍</p>
+                        <a href="album.html#tab2" class="btn pc" target="_blank"><img src="images/arrow2.png"
+                                alt="">查看更多2F相片</a>
+                                <a href="album.html#tab1" class="btn mobile" target="_blank">查看更多2F相片<img src="images/arrow.png"
+                                    alt=""></a>
+                    </div>
+                </div>
+                <div class="row" id="place3" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="col-1-3">
+                        <div class="title">
+                            <img class="" src="images/3f.png">
+                            <h3>三樓自然光家景<br>
+                                <span class="text-sm font-light">Natural Light</span>
+                            </h3>
+                        </div>
+                        <p class="text">三樓自然光家景，白色空間搭配木質傢俱，木頭和溫暖的光線打造出開放式的居家空間</p>
+                        <a href="album.html#tab3" class="btn" target="_blank">查看更多3F相片<img src="images/arrow.png"
+                                alt=""></a>
+                    </div>
+                    <div class="col-2-3">
+                        <img class="main-pic" src="images/main-pic1.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End  場地介紹-->
+
+        <!-- Start 場地須知 -->
+        <div class="section" id="section4">
+            <div class="container margin-auto">
+                <h2 class="text-center">
+                    <img class="title" src="images/title-3.png">
+                </h2>
+                <ul data-aos="fade-in" data-aos-duration="1200">
+                    <li>
+                        費用：<br>
+                        平面拍攝：$1000/hr<br>
+                        動態拍攝：$1500/hr
+                    </li>
+                    <li>
+                        以上為單樓層計價，若需使用兩層樓每小時+500<br>
+                        為保持租借品質，單時段僅接待一組拍攝<br>
+                        人數上限為十人，若增加一人+200 (超時十分鐘則以一小時計算)
+                    </li>
+                    <li>
+                        全預約制，單次最少租借3hr <br>
+                        當日包場另有優惠<br>
+                        若需場勘請先預約
+                    </li>
+                    <li>
+                        棚內的道具擺設皆可使用，拍攝完後請復原，如有損壞、污損需照價賠償<br>
+                        全區禁止吸菸、飲食、攜帶危險物品，如有飲食需求請於預約時提出<br>
+                        請自行保管貴重物品，本棚不負保管責任
+                    </li>
+                    <li>
+                        講座課程、發表會展覽、小型活動會議、直播...等，提供投影機、WIFI、桌椅、直飲 式淨水器<br>
+                        依空間用途搭配不同方案，選擇更多元
+                    </li>
+                    <li>另有搭配攝影師方案及長租方案，詳細租借資訊請私訊粉絲專頁：<a class="link"
+                            href="https://www.facebook.com/%E8%94%A6%E6%9E%97%E5%BD%B1%E5%83%8F-Tsutabayashi-Studio-113333434131113"
+                            target="_blank" title="">蔦林影像 Tsutabayashi Studio</a></li>
+                    <li>
+                        以上本棚保有修改變更或暫停任何活動之權利
+                    </li>
+                    <li>
+                        蔦林影像租棚須知 請詳閱<a data-fancybox="" data-src="#pop" id="notice">注意事項</a>，保護彼此權益
+                    </li>
+                </ul>
+            </div>
+            <img class="name" src="images/name.png">
+        </div>
+        <!-- End 場地須知 -->
+
+        <!-- 彈跳視窗 -->
+        <div id="pop" style="display: none;">
+            <div class="popup-content">
+                <p>注意事項</p>
+                <ul>
+                    <li>
+                        為配合中央流行疫情指揮中心防疫措施事宜，所有入境人士、確診武漢肺炎病例之接觸者， 請配合政令居家(檢疫)隔離14日，切勿外出。<br>
+                        除被攝者須露臉以外，其餘人員請配戴口罩，以維護自身及他人健康安全。 入場時請配合酒精消毒、量額溫、超過37.5度者不得入場。
+                    </li>
+                    <li>
+                        拍攝當日需付押金一千元。
+                    </li>
+                    <li>
+                        下器材時請注意不要造成附近住戶的困擾，若需停車請至鄰近停車場，最近的停車場為永樂市場B1停車場及Times迪化街停車場。
+
+                    </li>
+                    <li>
+                        一樓為營業中的咖啡廳，請不要影響咖啡廳營運及打擾顧客。
+                    </li>
+                    <li>
+                        三樓請更換拖鞋，如拍攝者須穿鞋，鞋底請貼大力膠，避免地面污損刮傷，四樓為未開放空 間，請勿隨意進入。
+                    </li>
+                    <li>遲到、延遲開拍仍依預約時段開始計價，如拍攝延遲結束，將計算超時費，超時十五分鐘以 一小時計，並不另做提醒，請自行注意時間。</li>
+                    <li>
+                        化妝區僅提供給預約客人使用，除租借空間的公共區域，不提供動態、平面攝影，如有其他商業攝影之行為，需以租棚費計算。
+
+                    </li>
+                    <li>
+                        全面禁止吸菸、攜帶危險物品，點火灑水、使用煙餅等易污染棚景之道具。
+                    </li>
+                    <li>
+                        影區全面禁止飲食(白開水可，二樓備有直飲式飲水機)，如有飲食需求請於預約時提 出，會安排二樓大長桌供使用，垃圾請自行處理，如造成嚴重污損，則視情況不退押金或退回 部分。
+                    </li>
+                    <li>
+                        請自行保管貴重物品，本棚不負保管責任。
+                    </li>
+                    <li>
+                        結束後請配合一同檢查棚景並清點，檢查完畢後退還押金。
+                    </li>
+                    <li>
+                        以上本棚保有修改變更或暫停任何活動之權利，謝謝!
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!---- End main ---->
+
+        <!-- go top btn-->
+        <div class="goTop"></div>
+
+        <!--Start footer -->
+        <footer>
+            <div class="footer-info">
+                <div class="container margin-auto">
+                    <div class="row">
+                        <img class="logo" src="images/footer-logo.png">
+                        <div class="info">
+                            <p><span class="font-bold">聯絡</span>：請洽粉絲專頁 <a class="link"
+                                    href="https://www.facebook.com/%E8%94%A6%E6%9E%97%E5%BD%B1%E5%83%8F-Tsutabayashi-Studio-113333434131113"
+                                    target="_blank" title="">蔦林影像 Tsutabayashi Studio</a></p>
+                            <p><span class="font-bold">地址</span>：台北市大同區南京西路239巷28號2樓 (捷運北門站步行七分鐘)</p>
+                            <p><span class="font-bold">電子信箱</span>：</p>
+                            <div class="row">
+                                <a class="link"
+                                    href="https://www.facebook.com/%E8%94%A6%E6%9E%97%E5%BD%B1%E5%83%8F-Tsutabayashi-Studio-113333434131113"
+                                    target="_blank" title=""><img src="images/footer-fb.png" alt=""></a>
+                                <a class="link" href="https://www.instagram.com/tsutabayashi.studio/" target="_blank"
+                                    title=""><img src="images/footer-ig.png" alt=""></a>
+                            </div>
+                            <p class="text-sm">#自然光攝影棚 #攝影服務 #藝文活動包場 #多功能空間</p>
+                        </div>
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7228.819715025239!2d121.50642067193604!3d25.05409398380365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1f1992ad7b2df82a!2z6JSm5p6X5b2x5YOPIFRzdXRhYmF5YXNoaSBTdHVkaW8!5e0!3m2!1szh-TW!2stw!4v1621435829033!5m2!1szh-TW!2stw"
+                            width="280px" height="" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <ul class="footer-link">
+                <li class="copy">  Website created by <a href="https://jeanzulin.github.io/" target="_blank">Jean Lin</a> © 2021 Tsutabayashi Studio Limited. All Rights Reserved.</li>
+            </ul>
+        </footer>
+        <!--End footer -->
+
+    </div>
+
+
+
+
+    <!-- script-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/my.js"></script>
+    <script>
+        $("#slider").vegas({
+            slides: [{
+                    src: 'images/kv-img1.png'
+                },
+                {
+                    src: 'images/kv-img2.png'
+                },
+                {
+                    src: 'images/kv-img3.png'
+                },
+                {
+                    src: 'images/kv-img4.png'
+                },
+                {
+                    src: 'images/kv-img5.png'
+                }
+            ],
+            animation: 'kenburns'
+        });
+    </script>
+    <script>
+        $('header').hide();
+        $(window).scroll(function () {
+            var height =$(window).height();
+console.log(height);
+            if ($(this).scrollTop() > height){
+                $('header').fadeIn(800);
+            } else {
+                $('header').stop().fadeOut(200);
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>
