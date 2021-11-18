@@ -899,6 +899,7 @@ header {
     cursor: pointer;
     transition: .2s;
     border-radius: 14px;
+    display:inline-block;
 }
 
 #section4 #notice:hover {
