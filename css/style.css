@@ -456,23 +456,30 @@ header {
 }
 
 .kv-logo {
-    max-width:50%;
+    width:150px;
     z-index: 2;
     position: absolute;
     left: 50%;
-    bottom: 40%;
-    transform: translate(-50%);
+    bottom: 50%;
+    transform: translate(-50%,50%);
 }
 
 .kv-text {
     z-index: 2;
     position: absolute;
     left: 50%;
-    bottom: 30%;
-    transform: translateX(-50%);
+    bottom: 50%;
+    transform: translate(-50%,180px);
     max-width: 98%;
 }
+@media screen and (max-width: 576px) {
+   .kv-logo {
+    width:90px;
+}
 
+.kv-text {
+    transform: translate(-50%,105px);}
+}
 .scroll-down {
     display: block;
     position: absolute;
@@ -971,6 +978,7 @@ header {
     width:75%;
 }
 .footer-info .logo {
+    width:80px;
     margin:0 10px;
 }
 
